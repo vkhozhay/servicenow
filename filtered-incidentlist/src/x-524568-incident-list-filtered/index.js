@@ -35,9 +35,6 @@ const view = (state, { updateState }) => {
 	}
 
 
-
-
-
 	if (filterParams.byState) {
 		incidentsArr = incidentsArr.filter(inc => inc.inc.state === filterParams.byState);
 	}
@@ -47,7 +44,6 @@ const view = (state, { updateState }) => {
 	if (filterParams.byAssignedTo) {
 		incidentsArr = incidentsArr.filter(inc => inc.assigned_to.display_value == filterParams.byAssignedTo);
 	}
-
 
 
 	return (
@@ -125,9 +121,11 @@ createCustomElement('x-524568-incident-list-filtered', {
 		'NOW_DROPDOWN_PANEL#ITEM_CLICKED': (coeffects) => {
 			const { action, updateState, dispatch } = coeffects;
 			const { id, component_id, label, group } = action.payload.item;
-			if (id === 'open') updateState({ dataForModal: component_id });
-			else if (id === 'delete') dispatch('FETCH_DELETE_INCEDENT', { sys_id: component_id });
-			else if (group === 'state') {
+			if (id === 'open') {
+				updateState({ dataForModal: component_id });
+			} else if (id === 'delete') {
+				dispatch('FETCH_DELETE_INCEDENT', { sys_id: component_id });
+			} else if (group === 'state') {
 				updateState({
 					path: 'filterParams',
 					value: { byState: label },
