@@ -1,0 +1,14 @@
+{
+	"components": {
+		"x-524568-incident-list-filtered": {
+			"innerComponents": ["now-dropdown", "now-loader", "now-template-card-assist", "now-modal", "now-label-value-stacked"],
+			"uiBuilder": {
+				"associatedTypes": ["global.visualization"],
+				"label": "My Incident List With Filter Component",
+				"icon": "chart-forecast-fill",
+				"description": "My test incident list with filter"
+			}
+		}
+	},
+	"scopeName": "x_524568_test_in_2"
+}

@@ -1,0 +1,14 @@
+{
+	"components": {
+		"x-524568-incident-list-actions": {
+			"innerComponents": ["now-loader", "now-template-card-assist", "now-modal", "now-label-value-stacked"],
+			"uiBuilder": {
+				"associatedTypes": ["global.visualization"],
+				"label": "My Incidents List With Actions",
+				"icon": "chart-forecast-fill",
+				"description": "My test incidents list with actions"
+			}
+		}
+	},
+	"scopeName": "x_524568_test_in_1"
+}

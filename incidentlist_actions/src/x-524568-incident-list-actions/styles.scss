@@ -1,0 +1,31 @@
+@import '@servicenow/sass-kit/host';
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    min-width: 45%;
+    margin: 20px;
+}
+
+.modal-content__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.modal-content__item {
+    width: 49%;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    vertical-align: bottom;
+}

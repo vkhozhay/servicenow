@@ -1,0 +1,14 @@
+{
+	"components": {
+		"x-524568-incident-list": {
+			"innerComponents": ["now-template-card-assist"],
+			"uiBuilder": {
+				"associatedTypes": ["global.visualization"],
+				"label": "My Incidents List Component",
+				"icon": "chart-forecast-fill",
+				"description": "My test incidents list component"
+			}
+		}
+	},
+	"scopeName": "x_524568_test_in_0"
+}

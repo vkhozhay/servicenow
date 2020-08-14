@@ -1,0 +1,51 @@
+@import '@servicenow/sass-kit/host';
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    min-width: 45%;
+    margin: 20px;
+}
+
+.modal-content__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.modal-content__item {
+    width: 49%;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    vertical-align: bottom;
+}
+
+.filter-bar {
+    display: flex;
+    align-items: center;
+}
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.filter-item__label {
+    margin-right: 5px;
+    font-size: 16px;
+}
